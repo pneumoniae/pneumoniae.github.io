@@ -30,7 +30,7 @@ twitter_username: pinacol
 # github_username:  pneumoniae
 
 # Build settings
-# theme: minima
+theme: minima
 plugins:
   - jekyll-feed
 
