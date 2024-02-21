@@ -32,6 +32,7 @@ twitter_username: pinacol
 theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-paginate
 
 permalink: /:year/:month/:day/:title:output_ext
 paginate: 10
