@@ -22,7 +22,7 @@ title: ペーパー抄読クラブ
 email: your-email@example.com
 author: pinacol
 description: >- # this means to ignore newlines until "baseurl:"
-  ペーパーを抄読した記録
+#  ペーパーを抄読した記録
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: pinacol
@@ -34,7 +34,7 @@ plugins:
   - jekyll-feed
   - jekyll-paginate
 
-permalink: /:year/:month/:day/:title:output_ext
+# permalink: /:year/:month/:day/:title:output_ext
 paginate: 10
 # remote_theme: jekyll/minima
 
