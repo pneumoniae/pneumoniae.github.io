@@ -10,6 +10,19 @@
       <div class="wrapper">
         {% include search-lunr.html %}
         {{ content }}
+        <div class="pagination">
+    {% if paginator.total_pages > 1 %}
+      {% if paginator.previous_page %}
+        <a href="{{ paginator.previous_page_path }}" class="prev">Previous</a>
+      {% endif %}
+      {% for page in (1..paginator.total_pages) %}
+        <a href="{{ "/page#{page}/" }}" class="page">{{ page }}</a>
+      {% endfor %}
+      {% if paginator.next_page %}
+        <a href="{{ paginator.next_page_path }}" class="next">Next</a>
+      {% endif %}
+    {% endif %}
+  </div>
       </div>
     </main>
 
