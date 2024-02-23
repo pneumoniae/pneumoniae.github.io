@@ -14,14 +14,10 @@
 }
 
 .post-title {
-  @include relative-font-size(2);
-  font-weight: 600;
+  @include relative-font-size(2.2);
+  font-weight: 500;
   letter-spacing: -1px;
   line-height: 1;
-
-  @include media-query($on-laptop) {
-    @include relative-font-size(2.25);
-  }
 }
 
 .site-title {
@@ -36,7 +32,4 @@
   &:visited {
     color: $grey-color-dark;
   }
-}
-
-h1, h2, h3, h4, h5, h6 {
 }
