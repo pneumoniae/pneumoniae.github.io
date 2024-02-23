@@ -13,9 +13,8 @@ layout: default
     <span class="post-meta">{{ post.date | date: date_format }}</span>
   </p>
   <div class="content">
-    {{ post.excerpt | strip_html }}
+    {{ post.content }}
   </div>
-  <a href="{{ post.url }}">さらに読む</a>
 {% endfor %}
 
 <!-- Pagination links -->
